@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+  color: #2c4153;
+  text-shadow: 0 0 1 black;
+}
+
+.hero {
+  display: flex;
+  height: 350px;
+  background-image: url(./images/hero.jpg);
+  background-size: cover;
+  background-position: bottom;
+  margin: 0;
+  flex-direction: column;
+  justify-content: end;
+  gap: 10px;
+}
+
+#main-text {
+  background-color: #adbed9;
+  align-self: center;
+  padding: 1px 5px;
+  border-radius: 10px;
+  text-shadow: 0 0 1px black;
+}
+
+#sub-text {
+  padding: 2px 0px;
+  font-size: 11px;
+  background-color: #adbed9;
+  align-self: center;
+  width: 550px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 1px black;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+#shortcut {
+  background-color: hsl(218, 100%, 96%);
+  padding: 15px 0 5px 0;
+}
+
+.activity-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile {
+  height: 150px;
+}
+
+#activities {
+  display: flex;
+  justify-content: space-around;
+
+  height: 350px;
+  background-color: hsl(218, 100%, 96%);
+  margin: 0;
+}
+
+.act-card {
+  width: 300px;
+  margin: 10px;
+}
+
+#guide-card {
+  display: flex;
+  width: 400px;
+  background-color: antiquewhite;
+  margin: 30px auto;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 10px;
+  align-items: center;
+}
+
+.profile {
+  height: 150px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-text h3,
+.card-text h4 {
+  margin: 2px 0;
+}
+
+.card-text p {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+#guide-card:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  opacity: 0.9;
+}

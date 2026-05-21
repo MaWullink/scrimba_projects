@@ -1,0 +1,148 @@
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  margin: 0;
+  display: grid;
+  grid-template-areas:
+    "head"
+    "main"
+    "foot";
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h2 {
+  line-height: 1.2em;
+}
+h1 {
+  font-size: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  grid-area: head;
+  align-items: center;
+  height: 5vh;
+  grid-area: head;
+  padding: 1rem;
+}
+nav {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  padding-right: 1.25rem;
+  font-size: 0.6em;
+}
+
+footer {
+  grid-area: foot;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 0.7rem;
+  grid-area: foot;
+}
+#recent {
+  margin-top: 2rem;
+}
+
+main {
+  grid-area: main;
+  line-height: 1.2em;
+}
+
+header img {
+  padding-right: 0.8rem;
+}
+
+.featured-post {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 2rem;
+}
+
+#profile {
+  width: 10rem;
+  margin-bottom: 1.5rem;
+  align-self: center;
+}
+
+.blog-img {
+  width: 100%;
+  max-width: 1066px;
+  align-self: self-start;
+  margin-bottom: 1rem;
+  max-height: 480px;
+}
+
+.recent-posts {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.recent-posts img {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+@media (min-width: 400px) {
+  .recent-posts {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .main {
+    font-size: 1.2rem;
+    line-height: 1.2em;
+  }
+  header {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  .blog-img {
+    margin-bottom: 1rem;
+  }
+  #profile {
+    width: 12rem;
+  }
+}
+
+@media (min-width: 750px) {
+  header,
+  footer,
+  main {
+    margin: 0 2rem;
+  }
+  .recent-posts {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  .main {
+    font-size: 1.5rem;
+    line-height: 1.5em;
+  }
+  header {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .blog-img {
+    margin-bottom: 2rem;
+  }
+  #profile {
+    width: 15rem;
+  }
+}
