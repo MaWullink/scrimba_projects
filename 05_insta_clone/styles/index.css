@@ -1,0 +1,113 @@
+/* RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans 3", sans-serif;
+  background-color: #fafafa;
+  color: #111;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 568px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* HEADER */
+.site-header {
+  border-bottom: 1px solid #ddd;
+  background: white;
+}
+
+.header-inner {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+}
+
+/* POST */
+.post {
+  background: white;
+  margin-top: 10px;
+  padding-bottom: 16px;
+  border: 1px solid #eee;
+}
+
+/* HEADER INSIDE POST */
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.username {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.location {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+/* IMAGE */
+.post-img {
+  width: 100%;
+  display: block;
+}
+
+/* ACTIONS */
+.post-actions {
+  display: flex;
+  gap: 10px;
+  padding: 10px 12px;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.icon-btn img {
+  width: 26px;
+}
+
+.icon-btn:hover {
+  opacity: 0.6;
+}
+
+/* TEXT */
+.likes {
+  margin: 0 12px 6px;
+  font-weight: 600;
+}
+
+.caption {
+  margin: 0 12px;
+}
+
+.caption strong {
+  font-weight: 600;
+}
