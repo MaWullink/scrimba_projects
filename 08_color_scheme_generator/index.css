@@ -1,3 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(22, 24, 27);
+  color: white;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  display: inline-block;
+  margin: 0.5rem;
+  border-bottom: 0.2rem solid;
+  border-image: linear-gradient(to right, blue, red) 1;
+}
+
+#color-pick-form {
+  padding: 0.7rem 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+input {
+  border: none;
+  width: 4rem;
+  height: 2.5rem;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+form label {
+  font-size: 1rem;
+  align-self: center;
+}
+
+button {
+  box-sizing: border-box;
+  padding: 0 0.8rem;
+  height: 2.5rem;
+  border: 0.1rem solid;
+  border-image: linear-gradient(to right, blue, red) 1;
+  background-color: rgb(33, 35, 39);
+  color: white;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+input:hover,
+input:focus,
+button:hover,
+button:focus {
+  opacity: 0.8;
+}
+
 #colors-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -5,5 +62,17 @@
 
 .color-box {
   border: 1px solid black;
-  height: 80vh;
+  height: 75vh;
+}
+
+@media (min-width: 750px) {
+  h1 {
+    font-size: 3rem;
+  }
+  form label {
+    font-size: 1.5rem;
+  }
+  button {
+    margin: 0;
+  }
 }

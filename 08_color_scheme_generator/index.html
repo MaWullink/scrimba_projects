@@ -5,19 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <h1>PaletteLab</h1>
     <form id="color-pick-form">
-      <label for="color-picker">Pick a color:</label>
-      <input type="color" value="#ff0000" id="color-picker" />
+      <label for="color-picker">Pick your color:</label>
+      <input type="color" value="#5296A5" id="color-picker" />
       <button type="submit">Get color scheme</button>
     </form>
     <div id="colors-container">
-      <div class="color-box" style="background-color: red">ggg</div>
-      <div class="color-box" style="background-color: red">ggg</div>
-      <div class="color-box" style="background-color: red">ggg</div>
-      <div class="color-box" style="background-color: red">ggg</div>
-      <div class="color-box" style="background-color: red">ggg</div>
+      <div class="color-box" style="background-color: rgb(119, 141, 187)">
+        <p></p>
+        <p>#778DBB</p>
+      </div>
+      <div class="color-box" style="background-color: rgb(83, 114, 180)">
+        <p>#5372B4</p>
+      </div>
+      <div class="color-box" style="background-color: rgb(61, 97, 177)">
+        <p>#3D61B1</p>
+      </div>
+      <div class="color-box" style="background-color: rgb(30, 76, 177)">
+        <p>#1E4CB1</p>
+      </div>
+      <div class="color-box" style="background-color: rgb(18, 63, 161)">
+        <p>#123FA1</p>
+      </div>
     </div>
 
     <!-- Show color scheme -->
