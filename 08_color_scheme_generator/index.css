@@ -37,6 +37,7 @@ form label {
 }
 
 button {
+  font-weight: 500;
   box-sizing: border-box;
   padding: 0 0.8rem;
   height: 2.5rem;
@@ -60,6 +61,10 @@ button:focus {
   grid-template-columns: repeat(5, 1fr);
 }
 
+#colors-container p {
+  text-align: center;
+}
+
 .color-box {
   border: 1px solid black;
   height: 75vh;
@@ -73,6 +78,6 @@ button:focus {
     font-size: 1.5rem;
   }
   button {
-    margin: 0;
+    margin-left: 1rem;
   }
 }
