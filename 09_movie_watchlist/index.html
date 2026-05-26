@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Movies</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Find your movie</h1>
+        <a href="./watchlist.html">My Watchlist</a>
+      </div>
+    </section>
+    <section class="search-bar">
+      <form id="search-form">
+        <div class="search">
+          <span class="search-icon material-symbols-outlined"> search </span>
+          <input
+            class="search-input"
+            id="search-input"
+            type="text"
+            placeholder="Oppenheimer"
+          />
+          <button class="search-btn" type="submit">Search</button>
+        </div>
+      </form>
+    </section>
+    <section class="display-movies">
+      <div class="movies" id="movies">
+        <div class="movie">
+          <img
+            class="movie-img"
+            src="https://m.media-amazon.com/images/M/MV5BNWE5MGI3MDctMmU5Ni00YzI2LWEzMTQtZGIyZDA5MzQzNDBhXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg"
+            alt=""
+          />
+          <div class="movie-description">
+            <h2>Guardians of the Galaxy: Vol. 2</h2>
+            <div class="movie-details">
+              <p>117 min</p>
+              <p>Action, Drama</p>
+              <button class="watchlist-btn">
+                <span class="material-symbols-outlined"> add_circle </span>
+                Watchlist
+              </button>
+            </div>
+            <p class="summary" id="read-more">
+              The Guardians struggle to keep together as a team while dealing
+              with their personal family issues, notably Star-Lord's encounter
+              with his father, the ambitious celestial being Ego.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
