@@ -1,12 +1,16 @@
-# Scrimba Fullstack Developer Path
+# Scrimba Fullstack Developer Path 💻
 
-This repository contains projects built while following the Scrimba Fullstack Developer Path.
+Projects and exercises created while following the **Scrimba Fullstack Developer Path**.
 
-Structure  
-Each folder represents a solo course project.
+## Topics
 
-Skills practiced  
-HTML, CSS, JavaScript, React, Node.js, Express, APIs, and fullstack development concepts.
+- HTML
+- CSS
+- JavaScript
+- React
+- Node.js
+- Express
+- APIs
+- Fullstack Development
 
-Goal  
-Practice building real applications while learning fullstack development across the JavaScript ecosystem.
+Each folder contains the project(s) for a specific course or module.
